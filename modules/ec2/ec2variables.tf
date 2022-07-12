@@ -1,7 +1,7 @@
  #---lists---
  variable "ami_cp_names" {
    type = list
-   default = ["k8s-CP1","k8s-CP2","k8s-CP3"]  
+   default = ["k8s-CP1","k8s-CP2","k8s-CP3"]  #<If you have more than 3 control planes you will need to add entries here>
  }
 
  variable "ami_worker_names" {
